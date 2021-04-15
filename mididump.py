@@ -189,9 +189,7 @@ def read_tracks(chunks):
     return tracks
 
 
-def dump_midi(filename="Space Harrier.mid"):
-    filename = "richter.mid"
-
+def dump_midi(filename):
     if len(sys.argv) == 2:
         # print("Loading from argument:", sys.argv[1])
         filename = sys.argv[1]
