@@ -129,7 +129,9 @@ dmypy.json
 .pyre/
 
 # Custom
-.zip
-.7z
-.dll
-.vscode/
+*.zip
+*.7z
+*.dll
+*.vscode/
+*.mid
+*.midi
